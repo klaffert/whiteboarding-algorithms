@@ -6,6 +6,11 @@ var reverseString = function(s) {
   return reversed
 };
 
+// Set pointer left at index 0 
+// Set pointer right at index s.length - 1
+// While left is less than right, move left pointer one step right
+// and right pointer one step left
+
 // #2 Working Solution
 var reverseString = function(s) {
   let left = 0
